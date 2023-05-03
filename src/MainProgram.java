@@ -56,7 +56,9 @@ class MainProgramm {
      */
     private static int sumUp(int[] array){
         int result = 0;
-        //Hier muss Quellcode ergänzt werden.
+        for (int i = 0; i > array.length; i++){
+            result = result + array[i];
+        }
         return result;
     }
 
